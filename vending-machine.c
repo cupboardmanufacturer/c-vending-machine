@@ -100,15 +100,15 @@ int main(void) {
   } else if (strcmp(sel, "z0") == 0) {
     printf("Error:HUT54IHT54ITH");
     printf("enter to continue\n");
-    while (getchar() != '\n')
-      ;
+    while (getchar() != '\n');
+    
     getchar();
     main();
   } else {
     printf("invalad code");
     printf("press enter to continue\n");
-    while (getchar() != '\n')
-      ;
+    while (getchar() != '\n');
+    
     getchar();
     main();
   }
@@ -127,8 +127,8 @@ int main(void) {
   if (change < 0) {
     printf("not enough money");
     printf("\npress enter to continue\n");
-    while (getchar() != '\n')
-      ;
+    while (getchar() != '\n');
+    system("clear");
     getchar();
     main();
   }
